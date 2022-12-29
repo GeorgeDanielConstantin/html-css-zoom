@@ -54,24 +54,29 @@ footer {
     height: 50px;
 }
 
-footer>div {
-    display: flex;
-    flex-direction: row;
-    color: white;
-    flex-wrap: nowrap;
-    align-items: center;
-}
-
-.multimedia>div {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: nowrap;
-    justify-content: space-around                                          ;
-    align-items: center;
-}
-
-.icona>i {
+.multimedia>i {
     padding: 0.5rem 0.5rem;
-    width: 1rem;
-    height: 1rem;
+    width: 2rem;
+    height: 2rem;
+}
+
+.multimedia {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;                                   ;
+}
+
+footer>.container {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.multimedia>p {
+    color: red;
+}
+
+.fa-share-from-square {
+    color: greenyellow;
 }
